@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int choice;
+clrscr();
+cout<<"1 push"<<endl;
+cout<<"2 pop"<<endl;
+cout<<"3 display"<<endl;
+cout<<"plz enter your choice";
+cin>>choice;
+switch(choice)
+{
+case 1:cout<<"push()"<<endl;
+       break;
+case 2:cout<<"pop"<<endl;
+       break;
+case 3:cout<<"display"<<endl;
+       break;
+
+default:cout<<"invalid choice";
+}
+getch();
+}
